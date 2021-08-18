@@ -1,0 +1,26 @@
+.icon {
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    padding: 10px;
+    i {
+        margin-left: 20px;
+        margin-right: 10px;
+        color: $dark;
+    }
+}
+
+.icons {
+    i {
+        margin-left: 20px;
+        margin-right: 10px;
+        color: #ffc83d;
+    }
+}
+
+.love {
+    i {
+        margin-right: 10px;
+        color: #df2e2e;
+    }
+}

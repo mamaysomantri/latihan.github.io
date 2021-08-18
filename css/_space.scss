@@ -1,0 +1,51 @@
+$spaces: 42px,
+33px,
+26px,
+20px,
+16px,
+70px,
+57px,
+47px,
+38px,
+32px,
+0px;
+.spacer {
+    padding: 0 0 5% 0;
+}
+
+.spacer-small {
+    padding: 5%;
+}
+
+@each $space in $spaces {
+    .m-#{$space} {
+        margin: $space;
+    }
+    .mt-#{$space} {
+        margin-top: $space;
+    }
+    .mb-#{$space} {
+        margin-bottom: $space;
+    }
+    .mr-#{$space} {
+        margin-right: $space;
+    }
+    .ml-#{$space} {
+        margin-left: $space;
+    }
+    .p-#{$space} {
+        padding: $space;
+    }
+    .pt-#{$space} {
+        padding-top: $space;
+    }
+    .pb-#{$space} {
+        padding-bottom: $space;
+    }
+    .pr-#{$space} {
+        padding-right: $space;
+    }
+    .pl-#{$space} {
+        padding-left: $space;
+    }
+}

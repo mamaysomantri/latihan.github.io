@@ -1,0 +1,25 @@
+.profile {
+    padding: 5% 0;
+    &-title {
+        max-width: 700px;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    p {
+        color: #434649;
+    }
+    span {
+        font-weight: 600;
+        color: $dark;
+        cursor: pointer;
+    }
+    @media screen and (max-width: 480px) {
+        h3 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+}

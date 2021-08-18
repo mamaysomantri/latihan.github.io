@@ -1,0 +1,36 @@
+.feature {
+    padding: 5% 0;
+    &-item {
+        h3 {
+            padding: 0;
+            margin: 0 0 10px 0;
+            color: $dark;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li {
+                a {
+                    text-decoration: none;
+                    color: #434649;
+                }
+            }
+        }
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid rgb(247, 244, 244);
+        padding: 25px;
+        -webkit-box-shadow: 1px 1px 1px #e4e3e3;
+        box-shadow: 0px -1px 1px 0px #f7f6f6;
+        border-radius: 25px;
+    }
+    @media screen and (max-width: 480px) {
+        .row {
+            margin: 2%;
+        }
+        h3 {
+            font-size: 20px;
+        }
+    }
+}

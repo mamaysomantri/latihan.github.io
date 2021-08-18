@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: $primaryfont;
+}
+
+$fontsizes: 42px,
+33px,
+26px,
+20px,
+16px;
+$i: 0;
+@each $fontsize in $fontsizes {
+    $i: $i + 1;
+    h#{$i} {
+        font-size: $fontsize;
+    }
+}
+
+$lineheights: 70px,
+57px,
+47px,
+38px,
+32px;
+$j: 0;
+@each $lineheight in $lineheights {
+    $j: $j + 1;
+    h#{$j} {
+        line-height: $lineheight;
+    }
+}
